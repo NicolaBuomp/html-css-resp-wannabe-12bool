@@ -1,23 +1,7 @@
-/* COLUMNS CONTAINER */
-.container {
-  width: 1170px;
-  max-width: 100%;
-  margin: 0 auto;
-}
-
-.container::after {
-  content: '';
-  display: table;
-  clear: both;
-}
-
 /* COLUMNS COMMON STYLES */
 [class^="col-"] {
   float: left;
   padding: 16px;
-  /* DEBUG:  */
-  border: 1px solid #000;
-  text-align: center;
 }
 
 [class^="col-"].p-0 {
